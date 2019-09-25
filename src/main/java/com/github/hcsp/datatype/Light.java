@@ -5,7 +5,7 @@ public class Light {
     // 亮 -> true
     // 灭 -> off
     // 未知 -> null
-    Boolean on;
+    Boolean on = false;
 
     public Light(Boolean on) {
         this.on = on;
